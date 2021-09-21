@@ -3,11 +3,6 @@ import "./styles.css";
 import { useState } from "react";
 
 const bookDataBase = {
-  javascript: [
-    { name: "Eloquent JavaScript", rating: "4/5" },
-    { name: "You Don't Know JS", rating: "3.5/5" }
-  ],
-
   "Self-help": [
     {
       name: "Think Like A Monk",
@@ -15,6 +10,10 @@ const bookDataBase = {
     },
     {
       name: "Power of Habits",
+      rating: "4.5/5"
+    },
+    {
+      name: "Think and Grow Rich",
       rating: "4.5/5"
     }
   ],
@@ -27,6 +26,10 @@ const bookDataBase = {
     {
       name: "Harry Potter and the Sorcerer's Stone",
       rating: "4.5/5"
+    },
+    {
+      name: "Cosmos",
+      rating: "4/5"
     }
   ],
 
