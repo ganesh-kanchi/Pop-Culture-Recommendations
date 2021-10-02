@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const recDataBase = {
   Movies: [
-    { name: "Free Guy", rating: "4.5/5" },
+    { name: "Free Guy", rating: "5/5" },
     { name: "Shang-Chi and The Legend of Ten Rings", rating: "4/5" }
   ],
 
