@@ -72,7 +72,7 @@ export default function App() {
           </button>
         ))}
       </div>
-      <hr />
+      <hr style={{ width: "80vw" }} />
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {recDataBase[selectedType].map((rec) => (
@@ -82,7 +82,7 @@ export default function App() {
                 listStyle: "none",
                 padding: "1rem",
                 border: "3px solid rgb(0, 153, 255)",
-                width: "60%",
+                width: "60vw",
                 margin: "auto",
                 marginTop: "1rem",
                 borderRadius: "0.5rem",
