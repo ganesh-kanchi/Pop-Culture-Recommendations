@@ -13,6 +13,10 @@ const recDataBase = {
     { name: "Without Me by Eminem", rating: "5/5" }
   ],
 
+    { name: "Free Guy", rating: "5/5" },
+    { name: "Shang-Chi and The Legend of Ten Rings", rating: "4/5" }
+  ],
+
   Series: [
     {
       name: "Doom Petrol",
@@ -29,6 +33,10 @@ const recDataBase = {
     {
       name: "The Good Docter",
       rating: "5/5"
+    },
+    {
+      name: "Sex Education",
+      rating: "4.5/5"
     },
     {
       name: "Rick and Morty",
@@ -93,7 +101,7 @@ export default function App() {
           </button>
         ))}
       </div>
-      <hr />
+      <hr style={{ width: "80vw" }} />
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {recDataBase[selectedType].map((rec) => (
