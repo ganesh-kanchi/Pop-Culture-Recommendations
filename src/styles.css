@@ -40,3 +40,7 @@ footer {
   fill: rgb(0, 153, 255);
   height: 6vh;
 }
+
+.change-color-svg :hover {
+  fill: rgb(0, 0, 0);
+}
