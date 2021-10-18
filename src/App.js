@@ -4,6 +4,15 @@ import { useState } from "react";
 
 const recDataBase = {
   Movies: [
+    { name: "Free Guy", rating: "4.5/5" },
+    { name: "Shang-Chi and The Legend of Ten Rings", rating: "4/5" }
+  ],
+  Music: [
+    { name: "Can I Kick It?", rating: "5/5" },
+    { name: "Nawazuddin by Seedhe Maut", rating: "4.5/5" },
+    { name: "Without Me by Eminem", rating: "5/5" }
+  ],
+
     { name: "Free Guy", rating: "5/5" },
     { name: "Shang-Chi and The Legend of Ten Rings", rating: "4/5" }
   ],
@@ -12,6 +21,18 @@ const recDataBase = {
     {
       name: "Doom Petrol",
       rating: "4.5/5"
+    },
+    {
+      name: "Agents of S.H.I.E.L.D.",
+      rating: "5/5"
+    },
+    {
+      name: "Sex Education",
+      rating: "4/5"
+    },
+    {
+      name: "The Good Docter",
+      rating: "5/5"
     },
     {
       name: "Sex Education",
@@ -29,7 +50,7 @@ const recDataBase = {
     },
     {
       name: "Brooklyn Nine-Noine",
-      rating: "4.5/5 (not a typo,if you know you know.)"
+      rating: "4.5/5 (not a typo, if you know you know.)"
     }
   ]
 };
@@ -41,7 +62,15 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1> One-Way-In to The Pop Culture </h1>
+      <h1
+        style={{
+          paddingBottom: "0",
+          marginBottom: "0.5rem"
+        }}
+      >
+        {" "}
+        One-Way-In to The Pop Culture{" "}
+      </h1>
       <p
         style={{
           fontSize: "smaller",
@@ -65,7 +94,7 @@ export default function App() {
               borderRadius: "0.5rem",
               padding: "0.5rem  1rem",
               border: "1px solid black",
-              margin: "1rem 0.3rem"
+              margin: "0.5rem 0.3rem"
             }}
           >
             {type}
