@@ -4,6 +4,15 @@
   margin: auto;
 }
 
+.redirecter {
+  text-decoration: none;
+  color: black;
+}
+
+.redirecter :hover {
+  color: rgb(0, 153, 255);
+}
+
 #root {
   text-align: center;
   margin: auto;
