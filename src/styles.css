@@ -1,10 +1,42 @@
 .App {
-  max-width: 600px;
+  font-family: sans-serif;
+  text-align: center;
   margin: auto;
-  padding: 2rem;
 }
 
-body {
-  font-family: "Lato", sans-serif;
-  background-color: #efefef;
+#root {
+  text-align: center;
+  margin: auto;
+  display: inline;
+  align-content: center;
+}
+
+#footer-head {
+  margin-bottom: 0.5rem;
+}
+
+#footer-ul {
+  display: inline-block;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  margin-bottom: 1rem;
+}
+
+.footer-li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+  font-weight: 500;
+}
+
+.change-color-svg {
+  fill: rgb(0, 153, 255);
+  height: 6vh;
 }
