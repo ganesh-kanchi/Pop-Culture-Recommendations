@@ -18,7 +18,7 @@ const recDataBase = {
       name: "Doom Petrol",
       rating: "4.5/5"
     },
-    {
+      {
       name: "Only Murders in the Building",
       rating: "4.5/5"
     },
@@ -33,6 +33,17 @@ const recDataBase = {
     {
       name: "The Good Docter",
       rating: "5/5"
+    },
+    {
+      name: "Sex Education",
+      rating: "4/5"
+    },
+    {
+      name: "The Good Docter",
+      rating: "5/5"
+    },
+    {
+      rating: "4.5/5"
     },
     {
       name: "Rick and Morty",
@@ -97,7 +108,7 @@ export default function App() {
           </button>
         ))}
       </div>
-      <hr />
+      <hr style={{ width: "80vw" }} />
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {recDataBase[selectedType].map((rec) => (
