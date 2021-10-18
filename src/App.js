@@ -19,6 +19,10 @@ const recDataBase = {
       rating: "4.5/5"
     },
     {
+      name: "Only Murders in the Building",
+      rating: "4.5/5"
+    },
+    {
       name: "Agents of S.H.I.E.L.D.",
       rating: "5/5"
     },
