@@ -13,13 +13,13 @@ const recDataBase = {
     { name: "Without Me by Eminem", rating: "5/5" }
   ],
 
-    { name: "Free Guy", rating: "5/5" },
-    { name: "Shang-Chi and The Legend of Ten Rings", rating: "4/5" }
-  ],
-
   Series: [
     {
       name: "Doom Petrol",
+      rating: "4.5/5"
+    },
+      {
+      name: "Only Murders in the Building",
       rating: "4.5/5"
     },
     {
@@ -36,6 +36,13 @@ const recDataBase = {
     },
     {
       name: "Sex Education",
+      rating: "4/5"
+    },
+    {
+      name: "The Good Docter",
+      rating: "5/5"
+    },
+    {
       rating: "4.5/5"
     },
     {
