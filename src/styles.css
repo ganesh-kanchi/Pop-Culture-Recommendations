@@ -53,3 +53,7 @@ footer {
 .change-color-svg :hover {
   fill: rgb(0, 0, 0);
 }
+
+button:hover {
+  color: white;
+}
