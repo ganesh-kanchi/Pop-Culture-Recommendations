@@ -5,6 +5,11 @@ import { useState } from "react";
 const recDataBase = {
   Movies: [
     {
+      name: "Dune",
+      rating: "5/5",
+      link: "https://www.imdb.com/title/tt1160419/?ref_=nv_sr_srsg_0"
+    },
+    {
       name: "Free Guy",
       rating: "4.5/5",
       link:
